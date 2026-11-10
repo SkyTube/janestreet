@@ -9,6 +9,9 @@ with instructions for the agent.
 - **socratic-tutor** — turns an LLM into a strict personal tutor that teaches a
   topic of your choice using the Socratic method: a diagnostic, a skill map with
   levels 0-5, one question at a time, spaced review, and a final assessment.
+- **market-making-sim** — teaches electronic market making through a deterministic
+  exchange simulator: write strategies, predict fills, and explain inventory,
+  latency, adverse selection, and P&L across synthetic scenarios.
 
 ## How to use
 
