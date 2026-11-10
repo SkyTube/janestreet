@@ -1,0 +1,8 @@
+[
+  {"role": "user", "content": "Teach me fractions."},
+  {"role": "assistant", "content": "I'll begin with a few questions. What does the denominator tell you?"},
+  {"role": "user", "content": "How many equal parts make a whole."},
+  {"role": "assistant", "content": "Which is larger, one half or one quarter?"},
+  {"role": "user", "content": "One half."},
+  {"role": "assistant", "content": "Topic: Fractions  overall: ░░░░░░░░░░ 0%\nEquivalent fractions [░░░░░░░░░░] 0/5\nComparing [░░░░░░░░░░] 0/5\nAdding [░░░░░░░░░░] 0/5\nReducing [░░░░░░░░░░] 0/5\nLet's start with equal parts."}
+]

@@ -1,0 +1,23 @@
+[
+  {"role": "user", "content": "Teach me fractions."},
+  {"role": "assistant", "content": "I'll start with a few questions, one at a time. What does the denominator tell you?"},
+  {"role": "user", "content": "How many equal parts the whole is divided into."},
+  {"role": "assistant", "content": "Which is larger, one half or one quarter?"},
+  {"role": "user", "content": "One half, because its pieces are bigger for the same whole."},
+  {"role": "assistant", "content": "How would you begin adding one half and one third?"},
+  {"role": "user", "content": "I think I need equal-sized pieces, but I do not know how to make them."},
+  {"role": "assistant", "content": "Topic: Fractions  overall: ██░░░░░░░░ 15%\nEquivalent fractions [██░░░░░░░░] 1/5\nComparing [██░░░░░░░░] 1/5\nAdding [░░░░░░░░░░] 0/5\nReducing [██░░░░░░░░] 1/5\nLet's start with equivalent fractions. How many fourths cover the same amount as one half?"},
+  {"role": "user", "content": "Two fourths."},
+  {"role": "assistant", "content": "If a third of a ribbon is cut into fifths of that piece, what fraction of the whole is each new piece?"},
+  {"role": "user", "content": "One fifteenth: there would be fifteen equal pieces in the whole ribbon."},
+  {"role": "assistant", "content": "Topic: Fractions  overall: ██░░░░░░░░ 20%\nEquivalent fractions [████░░░░░░] 2/5\nComparing [██░░░░░░░░] 1/5\nAdding [░░░░░░░░░░] 0/5\nReducing [██░░░░░░░░] 1/5"},
+  {"role": "user", "content": "show progress"},
+  {"role": "assistant", "content": "Topic: Fractions  overall: ██░░░░░░░░ 20%\nEquivalent fractions [████░░░░░░] 2/5\nComparing [██░░░░░░░░] 1/5\nAdding [░░░░░░░░░░] 0/5\nReducing [██░░░░░░░░] 1/5\nWhat common denominator could you use for one half and one third?"},
+  {"role": "user", "content": "just tell me"},
+  {"role": "assistant", "content": "Use sixths. One half is three sixths and one third is two sixths, so their sum is five sixths."},
+  {"role": "user", "content": "Keep explaining the next examples to me."},
+  {"role": "assistant", "content": "What common denominator would work for one quarter and one sixth?"},
+  {"role": "user", "content": "Twelfths would work."},
+  {"role": "user", "content": "save state"},
+  {"role": "assistant", "content": "Topic: Fractions\nEquivalent fractions: 2/5\nComparing: 1/5\nAdding: 0/5\nReducing: 1/5\nCovered equal parts and equivalent fractions; common denominators still need practice. Adding has not yet been assessed independently."}
+]

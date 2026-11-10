@@ -1,0 +1,14 @@
+[
+  {"role": "user", "content": "Teach me fractions."},
+  {"role": "assistant", "content": "I'll start with a few questions. What does the denominator tell you?"},
+  {"role": "user", "content": "Something about the number of pieces."},
+  {"role": "assistant", "content": "Which is larger, one half or one third?"},
+  {"role": "user", "content": "One third, because three is bigger."},
+  {"role": "assistant", "content": "How would you find a fraction equal to one half?"},
+  {"role": "user", "content": "I cannot recall the method."},
+  {"role": "assistant", "content": "Topic: Fractions  overall: ░░░░░░░░░░ 0%\nEquivalent fractions [░░░░░░░░░░] 0/5\nComparing [░░░░░░░░░░] 0/5\nAdding [░░░░░░░░░░] 0/5\nReducing [░░░░░░░░░░] 0/5\nHow many fourths cover half a whole?"},
+  {"role": "user", "content": "Two fourths, because two of the four equal pieces fill half."},
+  {"role": "assistant", "content": "How many sixths equal two thirds?"},
+  {"role": "user", "content": "Four sixths, since each third splits into two sixths."},
+  {"role": "assistant", "content": "Topic: Fractions  overall: █░░░░░░░░░ 10%\nEquivalent fractions [████░░░░░░] 2/5\nComparing [░░░░░░░░░░] 0/5\nAdding [░░░░░░░░░░] 0/5\nReducing [░░░░░░░░░░] 0/5"}
+]
