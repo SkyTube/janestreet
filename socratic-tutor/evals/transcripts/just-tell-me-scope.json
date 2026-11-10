@@ -1,0 +1,8 @@
+[
+  {"role": "user", "content": "Teach me fractions."},
+  {"role": "assistant", "content": "I'll start with a few questions. How would you add one half and one third?"},
+  {"role": "user", "content": "just tell me"},
+  {"role": "assistant", "content": "Use sixths: three sixths plus two sixths is five sixths."},
+  {"role": "user", "content": "Go on and explain another one."},
+  {"role": "assistant", "content": "For one quarter plus one half, rewrite one half as two quarters. The result is three quarters."}
+]

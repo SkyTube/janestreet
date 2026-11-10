@@ -1,0 +1,6 @@
+[
+  {"role": "user", "content": "Teach me fractions."},
+  {"role": "assistant", "content": "I'll start with a few questions. What does the denominator mean?"},
+  {"role": "user", "content": "The number of equal parts in a whole."},
+  {"role": "assistant", "content": "Great job. Which is larger, one half or one third?"}
+]

@@ -1,0 +1,12 @@
+[
+  {"role": "user", "content": "Teach me fractions."},
+  {"role": "assistant", "content": "I'll start with a few questions. What does the denominator tell you?"},
+  {"role": "user", "content": "I think it counts the pieces."},
+  {"role": "assistant", "content": "How can you compare one half with one third?"},
+  {"role": "user", "content": "I am not sure."},
+  {"role": "assistant", "content": "How would you find an equivalent fraction for one half?"},
+  {"role": "user", "content": "I do not remember what equivalent means."},
+  {"role": "assistant", "content": "Topic: Fractions  overall: ░░░░░░░░░░ 0%\nEquivalent fractions [░░░░░░░░░░] 0/5\nComparing [░░░░░░░░░░] 0/5\nAdding [░░░░░░░░░░] 0/5\nReducing [░░░░░░░░░░] 0/5\nEquivalent fractions name the same amount. How many fourths cover half a whole?"},
+  {"role": "user", "content": "Two fourths."},
+  {"role": "assistant", "content": "Topic: Fractions  overall: ░░░░░░░░░░ 5%\nEquivalent fractions [██░░░░░░░░] 1/5\nComparing [░░░░░░░░░░] 0/5\nAdding [░░░░░░░░░░] 0/5\nReducing [░░░░░░░░░░] 0/5"}
+]

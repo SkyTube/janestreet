@@ -10,6 +10,8 @@ with instructions for the agent.
   topic of your choice using the Socratic method: a diagnostic, a skill map with
   levels 0-5, one question at a time, spaced review, and a final assessment.
 
+  See the [transcript checks](socratic-tutor/evals/) for local evaluation tools.
+
 ## How to use
 
 With a coding agent that supports the common `SKILL.md` format, copy the skill

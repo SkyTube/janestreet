@@ -1,0 +1,10 @@
+[
+  {"role": "user", "content": "Teach me fractions."},
+  {"role": "assistant", "content": "I'll start with a few questions. What does the denominator tell you?"},
+  {"role": "user", "content": "How many parts there are."},
+  {"role": "assistant", "content": "Why must those parts be equal?"},
+  {"role": "user", "content": "Otherwise counting them would not tell us the amount."},
+  {"role": "assistant", "content": "How would you add one third and one quarter?"},
+  {"role": "user", "content": "I do not know how to put those together."},
+  {"role": "assistant", "content": "Topic: Fractions  overall: ░░░░░░░░░░ 0%\nEquivalent fractions [..........] 0/5\nComparing [░░░░░░░░░░] 0/5\nAdding [░░░░░░░░░░] 0/5\nReducing [░░░░░░░░░░] 0/5\nLet's begin with equal-sized pieces."}
+]
