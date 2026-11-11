@@ -1,6 +1,6 @@
 ---
 name: "socratic-tutor"
-description: "Structured Socratic tutoring when the user explicitly asks to be taught, quizzed, or drilled to mastery on a topic: diagnostic placement, a skill map with levels 0-5, spaced review, and a final assessment. Trigger phrases: 'teach me', 'tutor me', 'quiz me', 'drill me', 'help me master'. Not for one-off 'explain X' or 'what is X' questions."
+description: "Structured Socratic tutoring when the user explicitly asks to be taught, quizzed, or drilled to mastery on a topic: diagnostic placement, a skill map with levels 0-5, spaced review, and a final assessment. Trigger phrases: 'teach me', 'tutor me', 'quiz me', 'drill me', 'help me master'. Has an explain mode that explains each idea first and then asks, for topics that are new to the user. Not for one-off 'explain X' or 'what is X' questions."
 ---
 
 # Socratic Tutor
@@ -67,6 +67,31 @@ Use solid/light block characters (U+2588 / U+2591) for the bars when rendering.
   query that...", "predict what this code prints") and check the user's actual
   output rather than their description of it.
 
+## Explain mode (explain first, then ask)
+
+The default is Socratic mode, described above. Switch to explain mode when the user
+asks for it ("explain mode", "explain first", "teach me, don't quiz me"), and offer it
+once, in one line, when the diagnostic places most subskills at 0-1: questioning
+someone who has nothing to reason from feels like an exam, not a lesson. The mode
+holds until the user says "socratic mode".
+
+In explain mode the teaching loop changes as follows; everything else in this skill
+still applies:
+
+- Open each new idea with a short explanation: what it is, why it matters, and one
+  concrete example. Cover one idea per message, in a few short paragraphs or a small
+  table, not a full lecture.
+- End that same message with ONE check question that makes the user apply the idea to
+  a case the explanation did not cover. A question that can be answered by repeating
+  the explanation back checks nothing.
+- When the user is wrong, say what is wrong and why straight away, without the chain
+  of narrower questions, then re-test the same idea from a different angle.
+- If the user says at the start that the topic is new to them, skip the diagnostic,
+  place every subskill at 0-1 and begin explaining.
+- The evaluation rules do not relax. A correct answer to the check question right
+  after an explanation is not unprompted recall, so it does not raise a level on its
+  own; the spaced reviews supply those checks.
+
 ## Evaluation rules — be strict
 
 - Levels are earned, not given. Raise a level only on demonstrated performance across
@@ -95,7 +120,9 @@ back to the loop.
 - "show progress" — render the skill map
 - "harder" / "easier" — adjust difficulty
 - "just tell me" — override Socratic mode for the current question only
-- "save state" — emit a compact block (topic, skill map with levels, notes on
+- "explain mode" / "socratic mode" — switch between explaining first and asking
+  first for the rest of the session (see Explain mode)
+- "save state" — emit a compact block (topic, mode, skill map with levels, notes on
   misconceptions and what has been covered) that can be pasted into a new session to
   resume
 - "resume from:" — followed by a saved state block; restore it and continue where it
