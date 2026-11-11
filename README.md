@@ -9,6 +9,10 @@ with instructions for the agent.
 - **socratic-tutor** — turns an LLM into a strict personal tutor that teaches a
   topic of your choice using the Socratic method: a diagnostic, a skill map with
   levels 0-5, one question at a time, spaced review, and a final assessment.
+  Say "explain mode" and it explains each idea first, then asks one question to
+  check it. Say "refine mode" with a plan or draft you can still change and the
+  questions look for its weak points and turn your answers into changes to it,
+  instead of testing you on it.
 
 ## How to use
 
